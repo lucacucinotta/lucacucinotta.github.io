@@ -1,0 +1,10 @@
+@media only screen and (min-width:992px){
+    /*NAVBAR*/
+    .nav-link:hover{
+        color:$tertiary-color;
+    }
+    .icon:hover{
+        color:$tertiary-color;
+        transform:scale(1.3);
+    }
+}

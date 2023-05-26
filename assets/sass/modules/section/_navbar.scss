@@ -1,0 +1,21 @@
+@use "../config";
+
+.navbar{
+    background-color: $primary-color;
+    .navbar-brand{
+        color:$secondary-color;
+    }
+    .navbar-toggler{
+        color:$secondary-color;
+    }
+    .nav-link{
+        color:$secondary-color;
+    }
+    .nav-line{
+        border-bottom:1px solid $secondary-color;
+        display: block;
+    }
+    .icon{
+        color:$secondary-color;
+    }
+}
