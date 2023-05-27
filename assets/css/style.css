@@ -27,6 +27,13 @@ body .arrow {
   color: #343f71;
   border-radius: 40px;
 }
+body .section-line {
+  width: 60%;
+  height: 5px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background: #343f71;
+}
 
 .navbar {
   background-color: #343f71;
@@ -70,6 +77,26 @@ body .arrow {
 }
 .about-me .presentation a {
   color: #fbc40e;
+}
+
+.skills h1 {
+  background-color: #343f71;
+  color: #e9d8e4;
+  max-width: fit-content;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.skills .skills-group {
+  color: #e9d8e4;
+  background-color: #343f71;
+  border-radius: 20px;
+}
+.skills .skills-group h1 {
+  color: #e9d8e4;
+}
+.skills .skills-group .skills-line {
+  border-bottom: 1px solid #e9d8e4;
+  display: block;
 }
 
 @media only screen and (min-width: 992px) {

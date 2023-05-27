@@ -28,4 +28,11 @@ body{
         color:$primary-color;
         border-radius: 40px;
     }
+    .section-line{
+        width: 60%;
+        height: 5px;
+        border-radius: 50%;
+        margin: 0 auto;
+        background: $primary-color;
+    }
 }

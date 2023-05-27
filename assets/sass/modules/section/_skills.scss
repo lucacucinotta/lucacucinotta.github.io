@@ -1,0 +1,23 @@
+@use "../config";
+
+.skills{
+   h1{
+      background-color:$primary-color;
+      color:$secondary-color;
+      max-width: fit-content;
+      border-bottom-right-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+   .skills-group{
+    color:$secondary-color;
+    background-color:$primary-color;
+    border-radius: 20px;
+   }
+   .skills-group h1{
+    color:$secondary_color;
+   }
+   .skills-group .skills-line{
+    border-bottom:1px solid $secondary-color;
+    display: block;
+    }
+}
