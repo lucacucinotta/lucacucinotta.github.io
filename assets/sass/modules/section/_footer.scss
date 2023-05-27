@@ -1,0 +1,8 @@
+@use "../config";
+
+footer{
+    background-color: $primary-color;
+    p{
+        color: $secondary-color;
+    }
+}

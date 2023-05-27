@@ -105,8 +105,6 @@ body .section-line {
 .projects h1 {
   background-color: #343f71;
   color: #e9d8e4;
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
   max-width: fit-content;
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
@@ -120,6 +118,88 @@ body .section-line {
   color: #e9d8e4;
 }
 
+.contact-me .form {
+  max-width: 1000px;
+}
+.contact-me h1 {
+  background-color: #343f71;
+  color: #e9d8e4;
+  max-width: fit-content;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.contact-me .left {
+  background-color: #fbc40e;
+}
+.contact-me .right {
+  padding: 50px 100px;
+  background-color: #343f71;
+}
+.contact-me .form-control:focus {
+  background-color: #e9d8e4;
+  border: 1px solid #fbc40e;
+  box-shadow: none;
+}
+.contact-me input[type=email]:invalid {
+  border: 1px solid red;
+  color: red;
+  box-shadow: none;
+}
+.contact-me .right i {
+  font-size: 75px;
+  left: -27px;
+  top: 40%;
+  color: #343f71;
+}
+.contact-me .right button {
+  border: none;
+  width: 100%;
+  background-color: #e9d8e4;
+  color: #343f71;
+  padding: 15px 0;
+  display: inline-block;
+  margin-top: 10px;
+}
+.contact-me .right button:hover {
+  background-color: #fbc40e;
+  color: #343f71;
+}
+
+footer {
+  background-color: #343f71;
+}
+footer p {
+  color: #e9d8e4;
+}
+
+@media only screen and (max-width: 767px) {
+  /*CONTACT-ME*/
+  .form {
+    border-radius: 20px;
+  }
+  .left {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .right {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /*CONTACT-ME*/
+  .form {
+    border-radius: 20px;
+  }
+  .left {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  .right {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+}
 @media only screen and (min-width: 992px) {
   /*NAVBAR*/
   .nav-link:hover {
@@ -136,5 +216,10 @@ body .section-line {
   /*PROJECTS*/
   .projects .pj-icon:hover {
     color: #fbc40e;
+    transform: scale(1.3);
+  }
+  /*CONTACT-ME*/
+  .form-control:hover {
+    background-color: #e9d8e4;
   }
 }
