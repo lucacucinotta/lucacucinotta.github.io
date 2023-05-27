@@ -24,6 +24,9 @@
             emailjs.init('ID22yOfQ3gRQLHxG_');
         })();
        </script>
+
+        <!--AOS-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
        
     </head>
     <body>
@@ -84,8 +87,8 @@
 
         <!--ABOUT-ME-->
         <section id="About-me" class="about-me py-5 text-center">
-            <h1 class="p-1">About me</h1>
-            <div class="container text-md-start">
+            <h1 class="p-1" data-aos="slide-right">About me</h1>
+            <div class="container text-md-start" data-aos="slide-up">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-md px-md-5 d-flex justify-content-end">
                         <img class="img-fluid w-75 rounded d-none d-md-block" src="assets/img/about-me-photo.jpg">
@@ -116,8 +119,8 @@
 
         <!--SKILLS-->
         <section id="Skills" class="skills py-5 text-center">
-            <h1 class="p-1">Skills</h1>
-            <div class="container pt-lg-2">
+            <h1 class="p-1" data-aos="slide-right">Skills</h1>
+            <div class="container pt-lg-2" data-aos="slide-up">
                 <div class="row gy-3">
                     <div class="skills-group col-lg me-lg-3">
                         <h2>Hard Skills</h2>
@@ -178,8 +181,8 @@
 
         <!--PROJECTS-->
         <section id="Projects" class="projects text-center py-5"> 
-            <h1 class="p-1">Projects</h1>
-            <div class="container text-center mb-md-4">
+            <h1 class="p-1" data-aos="slide-right">Projects</h1>
+            <div class="container text-center mb-md-4" data-aos="slide-up">
                 <div class="row py-3 gy-3">
                     <div class="col-lg-4 d-flex justify-content-center">
                         <div class="card">
@@ -218,8 +221,8 @@
         
         <!--CONTACT-ME-->
         <section id="Contact-me" class="contact-me py-5">
-            <h1 class="p-1">Contact Me</h1>
-            <div class="container d-flex justify-content-center">
+            <h1 class="p-1" data-aos="slide-right">Contact Me</h1>
+            <div class="container d-flex justify-content-center" data-aos="slide-right">
                 <div class="row form g-0">
                     <div class="left col-sm-12 col-md-4 d-flex align-items-center">
                         <div class="d-flex justify-content-center">
@@ -259,6 +262,15 @@
             </div>
         </footer>
         <!--FOOTER-->
+
+        <!--AOS-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+              duration:700
+          });
+        </script>
+        <!--AOS-->
 
     </body>
 </html>
