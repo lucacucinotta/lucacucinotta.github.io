@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Red-Hat-Display";
+  src: url(/assets/font/Red-Hat-Display/RedHatDisplay-Regular.ttf);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -21,6 +26,7 @@
 
 body {
   background-color: #e9d8e4;
+  font-family: "Red-Hat-Display", sans-serif;
 }
 body .arrow {
   background-color: #fbc40e;
