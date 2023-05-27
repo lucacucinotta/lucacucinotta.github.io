@@ -7,4 +7,10 @@
         color:$tertiary-color;
         transform:scale(1.3);
     }
+    /*ABOUT-ME*/
+    .about-me{
+        .social a:hover{
+            transform:scale(1.3);
+        }
+    }
 }

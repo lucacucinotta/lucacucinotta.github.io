@@ -1,0 +1,19 @@
+@use "../config";
+
+.about-me{
+    h1{
+        background-color:$primary_color;
+        color:$secondary_color;
+        max-width: fit-content;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .presentation{
+        background-color: $primary-color;
+        color:$secondary-color;
+        border-radius:20px;
+        a{
+            color:$tertiary-color;
+        }
+    }
+}

@@ -7,6 +7,20 @@
     scroll-behavior: smooth;
 }
 
+*::-webkit-scrollbar {
+    width: 4px;
+}
+  
+*::-webkit-scrollbar-track {
+    background: $primary-color;
+}
+  
+*::-webkit-scrollbar-thumb {
+    background-color:$secondary-color;
+    border-radius: 20px;
+    border: 1px solid $primary-color;
+}
+
 body{
     background-color: $secondary-color;
     .arrow{
