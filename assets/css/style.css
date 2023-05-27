@@ -99,6 +99,27 @@ body .section-line {
   display: block;
 }
 
+.projects {
+  background-color: #e9d8e4;
+}
+.projects h1 {
+  background-color: #343f71;
+  color: #e9d8e4;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.projects .card {
+  width: 20rem;
+  background-color: #343f71;
+  color: #e9d8e4;
+}
+.projects .card .pj-icon {
+  color: #e9d8e4;
+}
+
 @media only screen and (min-width: 992px) {
   /*NAVBAR*/
   .nav-link:hover {
@@ -111,5 +132,9 @@ body .section-line {
   /*ABOUT-ME*/
   .about-me .social a:hover {
     transform: scale(1.3);
+  }
+  /*PROJECTS*/
+  .projects .pj-icon:hover {
+    color: #fbc40e;
   }
 }

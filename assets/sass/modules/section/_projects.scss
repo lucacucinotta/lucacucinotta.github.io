@@ -1,0 +1,20 @@
+@use "../config";
+
+.projects{
+    background-color: $secondary-color;
+    h1{
+        background-color:$primary_color;
+        color:$secondary_color;
+        max-width: fit-content;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .card{
+        width: 20rem;
+        background-color: $primary-color;
+        color:$secondary_color;
+        .pj-icon{
+            color:$secondary-color;
+        }
+    }
+}
