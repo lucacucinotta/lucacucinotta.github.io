@@ -1,0 +1,34 @@
+@import "../modules/config";
+
+@font-face {
+    font-family:"Red-Hat-Display";
+    src: url(/assets/font/Red-Hat-Display/RedHatDisplay-Regular.ttf);
+}
+
+body{
+    background-color: $secondary_color;
+    font-family: "Red-Hat-Display";
+    .left{
+        background-color: $tertiary-color;
+        color:$primary-color;
+
+        .contact{
+            a{
+                color:$primary-color;
+            }
+        }
+    }
+    .right{
+        background-color: $primary-color;
+        color:$secondary-color;
+    }
+    .left-line{
+        width: 60%;
+        height: 5px;
+        border-radius: 50%;
+        margin: 0 auto;
+        background: $primary-color;
+    }
+}
+
+@import "./modules/media";
