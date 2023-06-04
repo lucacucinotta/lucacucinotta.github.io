@@ -3,17 +3,21 @@
 .about-me{
     h1{
         background-color:$primary_color;
-        color:$secondary_color;
+        color:$item-color;
         max-width: fit-content;
         border-bottom-right-radius: 20px;
         border-top-right-radius: 20px;
     }
     .presentation{
         background-color: $primary-color;
-        color:$secondary-color;
+        color:$item-color;
         border-radius:20px;
         a{
             color:$tertiary-color;
+        }
+        .social a:hover{
+            transform:scale(1.2);
+            transition: all 0.5s;
         }
     }
 }

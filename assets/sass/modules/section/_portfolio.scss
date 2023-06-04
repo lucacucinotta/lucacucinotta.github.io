@@ -1,0 +1,58 @@
+@use "../config";
+
+.portfolio{
+    h1{
+        background-color:$primary_color;
+        color:$item-color;
+        max-width: fit-content;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .content p{
+        max-width: 600px;
+        font-size:40px;
+        color:$primary_color;
+    }
+    .maincard{
+        position: relative;
+        width: 450px;
+        height: 220px;
+        background: none;
+    }
+    .card{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        transform-style: preserve-3d;
+        transition: all 0.8s ease;
+    }
+    .card:hover{
+        transform: rotateY(180deg);
+    }
+    .card-front{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        backface-visibility: hidden;
+        background-size: cover;
+        background-color:$primary_color;
+        color:$item-color;
+    }
+    .card-back{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        backface-visibility: hidden;
+        background-size: cover;
+        background:$primary_color;
+        color:$item-color;
+        transform: rotateY(180deg);
+    }
+    .card-back img:hover{
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
+}

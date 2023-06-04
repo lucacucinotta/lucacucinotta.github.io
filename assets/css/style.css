@@ -45,20 +45,27 @@ body .section-line {
   background-color: #343f71;
 }
 .navbar .navbar-brand {
-  color: #e9d8e4;
+  color: #ffffff;
 }
 .navbar .navbar-toggler {
-  color: #e9d8e4;
+  color: #ffffff;
 }
 .navbar .nav-link {
-  color: #e9d8e4;
+  color: #ffffff;
+}
+.navbar .nav-link:hover {
+  color: #fbc40e;
 }
 .navbar .nav-line {
   border-bottom: 1px solid #e9d8e4;
   display: block;
 }
 .navbar .icon {
-  color: #e9d8e4;
+  color: #ffffff;
+}
+.navbar .icon:hover {
+  color: #fbc40e;
+  transform: scale(1.3);
 }
 
 .home {
@@ -66,98 +73,149 @@ body .section-line {
 }
 .home .container {
   max-width: 600px;
-  color: #e9d8e4;
+  color: #ffffff;
 }
 
 .about-me h1 {
   background-color: #343f71;
-  color: #e9d8e4;
+  color: #ffffff;
   max-width: fit-content;
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
 }
 .about-me .presentation {
   background-color: #343f71;
-  color: #e9d8e4;
+  color: #ffffff;
   border-radius: 20px;
 }
 .about-me .presentation a {
   color: #fbc40e;
 }
+.about-me .presentation .social a:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
 
 .skills h1 {
   background-color: #343f71;
-  color: #e9d8e4;
+  color: #ffffff;
   max-width: fit-content;
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
 }
 .skills .skills-group {
-  color: #e9d8e4;
+  color: #ffffff;
   background-color: #343f71;
   border-radius: 20px;
 }
 .skills .skills-group h1 {
-  color: #e9d8e4;
+  color: #ffffff;
 }
 .skills .skills-group .skills-line {
   border-bottom: 1px solid #e9d8e4;
   display: block;
 }
 
-.projects {
-  background-color: #e9d8e4;
-}
-.projects h1 {
+.portfolio h1 {
   background-color: #343f71;
-  color: #e9d8e4;
+  color: #ffffff;
   max-width: fit-content;
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
 }
-.projects .card {
-  width: 20rem;
-  background-color: #343f71;
-  color: #e9d8e4;
+.portfolio .content p {
+  max-width: 600px;
+  font-size: 40px;
+  color: #343f71;
 }
-.projects .card .pj-icon {
-  color: #e9d8e4;
+.portfolio .maincard {
+  position: relative;
+  width: 450px;
+  height: 220px;
+  background: none;
+}
+.portfolio .card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+}
+.portfolio .card:hover {
+  transform: rotateY(180deg);
+}
+.portfolio .card-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  background-size: cover;
+  background-color: #343f71;
+  color: #ffffff;
+}
+.portfolio .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  background-size: cover;
+  background: #343f71;
+  color: #ffffff;
+  transform: rotateY(180deg);
+}
+.portfolio .card-back img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
 }
 
+.contact-me h1 {
+  background-color: #343f71;
+  color: #ffffff;
+  max-width: fit-content;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.contact-me .content h2 {
+  color: #343f71;
+  font-size: 50px;
+}
+.contact-me .content p {
+  max-width: 450px;
+  color: #343f71;
+}
 .contact-me .form {
   max-width: 1000px;
 }
-.contact-me h1 {
-  background-color: #343f71;
-  color: #e9d8e4;
-  max-width: fit-content;
-  border-bottom-right-radius: 20px;
-  border-top-right-radius: 20px;
-}
-.contact-me .left {
+.contact-me .form .left {
   background-color: #fbc40e;
 }
-.contact-me .right {
+.contact-me .form .right {
   padding: 50px 100px;
   background-color: #343f71;
 }
-.contact-me .form-control:focus {
+.contact-me .form .form-control:hover {
+  background-color: #e9d8e4;
+}
+.contact-me .form .form-control:focus {
   background-color: #e9d8e4;
   border: 1px solid #fbc40e;
   box-shadow: none;
 }
-.contact-me input[type=email]:invalid {
+.contact-me .form input[type=email]:invalid {
   border: 1px solid red;
   color: red;
   box-shadow: none;
 }
-.contact-me .right i {
+.contact-me .form .right i {
   font-size: 75px;
   left: -27px;
   top: 40%;
   color: #343f71;
 }
-.contact-me .right button {
+.contact-me .form .right button {
   border: none;
   width: 100%;
   background-color: #e9d8e4;
@@ -166,7 +224,7 @@ body .section-line {
   display: inline-block;
   margin-top: 10px;
 }
-.contact-me .right button:hover {
+.contact-me .form .right button:hover {
   background-color: #fbc40e;
   color: #343f71;
 }
@@ -174,8 +232,56 @@ body .section-line {
 footer {
   background-color: #343f71;
 }
+footer .icon-link .insta {
+  max-width: 35px;
+}
+footer .icon-link .github {
+  max-width: 35px;
+}
+footer .icon-link .linkedin {
+  max-width: 55px;
+}
+footer img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
 footer p {
-  color: #e9d8e4;
+  color: #ffffff;
+}
+
+@media (hover: none) {
+  /*NAVBAR*/
+  .nav-link:hover {
+    color: #e9d8e4 !important;
+  }
+  .nav-link:active {
+    color: #fbc40e !important;
+  }
+  .icon:hover {
+    color: #e9d8e4 !important;
+    transform: inherit !important;
+  }
+  .icon:active {
+    color: #fbc40e !important;
+  }
+  /*NAVBAR*/
+
+  /*ABOUT-ME*/
+  .about-me .social a:hover {
+    transform: inherit !important;
+  }
+  /*ABOUT-ME*/
+
+  /*PORTFOLIO*/
+  .card-back img:hover {
+    transform: inherit !important;
+  }
+  /*PORTFOLIO*/
+
+  /*FOOTER*/
+  .icon-link img:hover {
+    transform: inherit !important;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -192,6 +298,7 @@ footer p {
     border-bottom-right-radius: 20px;
   }
 }
+
 @media only screen and (min-width: 768px) {
   /*CONTACT-ME*/
   .form {
@@ -204,28 +311,5 @@ footer p {
   .right {
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
-  }
-}
-@media only screen and (min-width: 992px) {
-  /*NAVBAR*/
-  .nav-link:hover {
-    color: #fbc40e;
-  }
-  .icon:hover {
-    color: #fbc40e;
-    transform: scale(1.3);
-  }
-  /*ABOUT-ME*/
-  .about-me .social a:hover {
-    transform: scale(1.3);
-  }
-  /*PROJECTS*/
-  .projects .pj-icon:hover {
-    color: #fbc40e;
-    transform: scale(1.3);
-  }
-  /*CONTACT-ME*/
-  .form-control:hover {
-    background-color: #e9d8e4;
   }
 }

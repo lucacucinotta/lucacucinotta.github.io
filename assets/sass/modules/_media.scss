@@ -1,3 +1,38 @@
+@media (hover:none) { 
+    /*NAVBAR*/
+    .nav-link:hover{
+        color:#e9d8e4 !important;
+    }
+    .nav-link:active{
+        color:#fbc40e !important;
+    }
+    .icon:hover { 
+        color: #e9d8e4 !important;
+        transform: inherit !important; 
+    }
+    .icon:active{
+        color:#fbc40e !important;
+    }
+    /*NAVBAR*/
+
+    /*ABOUT-ME*/
+    .about-me .social a:hover{
+        transform: inherit !important;
+    }
+    /*ABOUT-ME*/
+
+    /*PORTFOLIO*/
+    .card-back img:hover{
+        transform: inherit !important;
+    }
+    /*PORTFOLIO*/
+
+    /*FOOTER*/
+    .icon-link img:hover{
+        transform: inherit !important;
+    }
+  }
+
 @media only screen and (max-width:767px){
     /*CONTACT-ME*/
     .form{
@@ -27,30 +62,4 @@
         border-top-right-radius: 20px;
     }
 
-}
-
-@media only screen and (min-width:992px){
-    /*NAVBAR*/
-    .nav-link:hover{
-        color:$tertiary-color;
-    }
-    .icon:hover{
-        color:$tertiary-color;
-        transform:scale(1.3);
-    }
-    /*ABOUT-ME*/
-    .about-me{
-        .social a:hover{
-            transform:scale(1.3);
-        }
-    }
-    /*PROJECTS*/
-    .projects .pj-icon:hover{
-        color:$tertiary-color;
-        transform: scale(1.3);
-    }
-    /*CONTACT-ME*/
-    .form-control:hover{
-        background-color: $secondary_color;
-    }
 }

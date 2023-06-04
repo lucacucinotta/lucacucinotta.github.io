@@ -3,19 +3,26 @@
 .navbar{
     background-color: $primary-color;
     .navbar-brand{
-        color:$secondary-color;
+        color:$item-color;
     }
     .navbar-toggler{
-        color:$secondary-color;
+        color:$item-color;
     }
     .nav-link{
-        color:$secondary-color;
+        color:$item-color;
+    }
+    .nav-link:hover{
+        color:$tertiary-color;
     }
     .nav-line{
         border-bottom:1px solid $secondary-color;
         display: block;
     }
     .icon{
-        color:$secondary-color;
+        color:$item-color;
+    }
+    .icon:hover{
+        color:$tertiary-color;
+        transform:scale(1.3);
     }
 }

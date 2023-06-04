@@ -1,50 +1,63 @@
 @use "../config";
 
 .contact-me{
-    .form{
-        max-width: 1000px;
-    }
     h1{
         background-color:$primary_color;
-        color:$secondary_color;
+        color:$item-color;
         max-width: fit-content;
         border-bottom-right-radius: 20px;
         border-top-right-radius: 20px;
     }
-    .left{
-        background-color: $tertiary-color;
+    .content{
+        h2{
+            color:$primary-color;
+            font-size: 50px;
+        }
+        p{
+            max-width: 450px;
+            color:$primary-color;
+        }
     }
-    .right{
-        padding:50px 100px;
-        background-color: $primary-color;
-    }
-    .form-control:focus{
-        background-color: $secondary_color;
-        border: 1px solid $tertiary-color;
-        box-shadow: none;
-    }
-    input[type="email"]:invalid{
-		border: 1px solid red;
-		color: red;
-		box-shadow: none;
-	}
-    .right i {
-        font-size: 75px;
-        left: -27px;
-        top: 40%;
-        color: $primary-color;
-    }
-    .right button {
-        border: none;
-        width: 100%;
-        background-color:$secondary_color;
-        color:$primary-color;
-        padding: 15px 0;
-        display: inline-block;
-        margin-top: 10px;
-    }
-    .right button:hover{
-        background-color: $tertiary-color;
-        color:$primary-color;
+    .form{
+        max-width: 1000px;
+        .left{
+            background-color: $tertiary-color;
+        }
+        .right{
+            padding:50px 100px;
+            background-color: $primary-color;
+        }
+        .form-control:hover{
+            background-color: $secondary_color;
+        }
+        .form-control:focus{
+            background-color: $secondary_color;
+            border: 1px solid $tertiary-color;
+            box-shadow: none;
+        }
+        input[type="email"]:invalid{
+            border: 1px solid red;
+            color: red;
+            box-shadow: none;
+        }
+        .right i {
+            font-size: 75px;
+            left: -27px;
+            top: 40%;
+            color: $primary-color;
+        }
+        .right button {
+            border: none;
+            width: 100%;
+            background-color:$secondary_color;
+            color:$primary-color;
+            padding: 15px 0;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .right button:hover{
+            background-color: $tertiary-color;
+            color:$primary-color;
+        }
     }
 }

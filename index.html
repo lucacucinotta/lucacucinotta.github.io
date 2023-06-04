@@ -5,6 +5,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="x-ua-compatible" content="ie-edge">
         <title>Luca Cucinotta | Web Developer</title>
+        <meta name="description" content="I'm Luca Cucinotta, a Web Developer based in Sicily">
+
+        <!--OPEN GRAPH-->
+        <meta name="og:url" content="">
+        <meta name="og:title" content="Luca Cucinotta | Web Developer">
+        <meta name="og:image" content="https://i.postimg.cc/YS4jNwMg/og-image.png">
+        <meta name="description" content="I'm Luca Cucinotta, a Web Developer based in Sicily">
+        
+        <!--TWITTER CARDS-->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:url" content="">
+        <meta name="twitter:title" content="Luca Cucinotta | Web Developer">
+        <meta name="twitter:description" content="I'm Luca Cucinotta, a Web Developer based in Sicily">
+        <meta name="twitter:image" content="https://i.postimg.cc/YS4jNwMg/og-image.png">
         
         <!--Font Awesome-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -46,7 +60,7 @@
                             <a class="nav-link" href="#Skills">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#Projects">Projects</a>
+                            <a class="nav-link" href="#Portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#Contact-me">Contact Me</a>
@@ -71,12 +85,16 @@
 
         <!--HOME-->
         <section id="Home" class="home w-100 vh-100 d-flex align-items-center">
-            <div class="container text-center">
-                <img class="img-fluid w-50" src="assets/img/home-photo.PNG">
-                <h1 class="display-2">Luca Cucinotta</h1>
-                <h2 class="display-4">Web Developer</h2>
-                <p class="lead">Hi, I'm Luca. Welcome in my own website. If you want to know more click below and enjoy!</p>
-                <div class="mt-5">
+            <div class="container">
+                <div class="emote d-flex justify-content-center">
+                    <img class="img-fluid w-50" src="assets/img/home-photo.PNG">
+                </div>
+                <div class="content text-center">
+                    <h1 class="display-2">Luca Cucinotta</h1>
+                    <h2 class="display-4">Web Developer</h2>
+                    <p class="lead">Hi, I'm Luca. Welcome in my own website. If you want to know more click below and enjoy!</p>
+                </div>
+                <div class="mt-3 d-flex justify-content-center">
                     <a href="#About-me" class="arrow p-3">
                         <i class="fa-solid fa-chevron-down"></i>
                     </a>
@@ -86,28 +104,34 @@
         <!--HOME-->
 
         <!--ABOUT-ME-->
-        <section id="About-me" class="about-me py-5 text-center">
+        <section id="About-me" class="about-me py-5">
             <h1 class="p-1" data-aos="slide-right">About me</h1>
-            <div class="container text-md-start" data-aos="slide-up">
+            <div class="container" data-aos="slide-up">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-md px-md-5 d-flex justify-content-end">
                         <img class="img-fluid w-75 rounded d-none d-md-block" src="assets/img/about-me-photo.jpg">
                     </div>
-                    <div class="presentation col-md py-3">
-                        <p class="lead">Hello Again. I'm Luca, a Junior Software Developer based in Messina, Sicily.</p>
-                        <p class="lead"> I graduated in Computer Science and Telecommunications in 2021, with 100/100th. There find my <a href="/cv/index.html" class="text-decoration-none">CV</a> if you want to give a view.</p>
-                        <p class="lead">I am a big fan of football, my favourite team is AC Milan, and a big lover of <a href="https://tvtime.com/r/2OuAq" class="text-decoration-none" target="_blank">cinema</a> and <a href="https://open.spotify.com/user/d6vk8c8lz1lxnlseic7rd3bj8" class="text-decoration-none" target="_blank">music</a> : I'll leave you a taste of my tastes below, take a look.</p>
-                        <p class="lead">I'm able to team-working and always ready to learn and improve.</p>
-                        <p class="lead">To know more about me check my socials below:</p>
-                        <div class="social d-flex justify-content-around">
-                            <a class="text-decoration-none" href="https://www.instagram.com/luca.cucinotta/" target="_blank">
-                                <i class="fab fa-instagram"></i>
-                                Instagram
-                            </a>
-                            <a class="text-decoration-none" href="https://www.facebook.com/luca.cucinotta.9/" target="_blank">
-                                <i class="fa-brands fa-facebook"></i>
-                                Facebook
-                            </a>
+                    <div class="col-md">
+                        <div class="presentation p-1 text-center">
+                            <p class="lead">Hello Again. I'm Luca, a Web Developer based in Messina, Sicily.</p>
+                            <p class="lead"> I graduated in Computer Science and Telecommunications in 2021, with 100/100th. There find my <a href="/cv/index.html" class="text-decoration-none">CV</a> if you want to give a view.</p>
+                            <p class="lead">I am a big fan of football, my favourite team is AC Milan, and a big lover of <a href="https://tvtime.com/r/2OuAq" class="text-decoration-none" target="_blank">cinema</a> and <a href="https://open.spotify.com/user/d6vk8c8lz1lxnlseic7rd3bj8" class="text-decoration-none" target="_blank">music</a> : I'll leave you a taste of my tastes below, take a look.</p>
+                            <p class="lead">I'm able to team-working and always ready to learn and improve.</p>
+                            <p class="lead">To know more about me check my socials below:</p>
+                            <div class="social d-flex justify-content-around">
+                                <a class="text-decoration-none" href="https://www.instagram.com/luca.cucinotta/" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                    Instagram
+                                </a>
+                                <a class="text-decoration-none" href="https://www.facebook.com/luca.cucinotta.9/" target="_blank">
+                                    <i class="fa-brands fa-facebook"></i>
+                                    Facebook
+                                </a>
+                                <a class="text-decoration-none" href="https://www.linkedin.com/in/luca-cucinotta-4b836b278/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                    Linkedin
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -121,53 +145,57 @@
         <section id="Skills" class="skills py-5 text-center">
             <h1 class="p-1" data-aos="slide-right">Skills</h1>
             <div class="container pt-lg-2" data-aos="slide-up">
-                <div class="row gy-3">
-                    <div class="skills-group col-lg me-lg-3">
-                        <h2>Hard Skills</h2>
-                        <span class="skills-line"></span>
-                        <div class="container py-2">
-                            <div class="row gy-1">
-                                <div class="col">
-                                    <img class="img-fluid w-50" src="assets/img/svg/hard-skill/html.svg">
-                                    <p>HTML</p>
-                                </div>
-                                <div class="col">
-                                    <img class="img-fluid w-50" src="assets/img/svg/hard-skill/css.svg">
-                                    <p>CSS</p>
-                                </div>
-                                <div></div>
-                                <div class="col">
-                                    <img class="img-fluid w-50" src="assets/img/svg/hard-skill/sass.svg">
-                                    <p>SASS</p>
-                                </div>
-                                <div class="col">
-                                    <img class="img-fluid w-50" src="assets/img/svg/hard-skill/bootstrap.svg">
-                                    <p>Bootstrap</p>
+                <div class="row g-3">
+                    <div class="col-lg">
+                        <div class="skills-group">
+                            <h2>Hard Skills</h2>
+                            <span class="skills-line"></span>
+                            <div class="skills-icon">
+                                <div class="row g-1">
+                                    <div class="col">
+                                        <img class="img-fluid w-50" src="assets/img/svg/hard-skill/html.svg">
+                                        <p>HTML</p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="img-fluid w-50" src="assets/img/svg/hard-skill/css.svg">
+                                        <p>CSS</p>
+                                    </div>
+                                    <div></div>
+                                    <div class="col">
+                                        <img class="img-fluid w-50" src="assets/img/svg/hard-skill/sass.svg">
+                                        <p>SASS</p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="img-fluid w-50" src="assets/img/svg/hard-skill/bootstrap.svg">
+                                        <p>Bootstrap</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="skills-group col-lg">
-                        <h2>Soft Skills</h2>
-                        <span class="skills-line"></span>
-                        <div class="container py-2">
-                            <div class="row gy-1">
-                                <div class="col">
-                                    <img class="img-fluid w-50" src="assets/img/svg/soft-skill/teamwork.svg">
-                                    <p>Teamwork</p>
-                                </div>
-                                <div class="col">
-                                    <img class="img-fluid w-50" src="assets/img/svg/soft-skill/communication.svg">
-                                    <p>Communication<p>
-                                </div>
-                                <div></div>
-                                <div class="col">
-                                    <img class="img-fluid w-50" src="assets/img/svg/soft-skill/cordiliaty.svg">
-                                    <p>Cordiality<p>
-                                </div>
-                                <div class="col">
-                                    <img class="img-fluid w-50" src="assets/img/svg/soft-skill/work-for-progress.svg">
-                                    <p>Work to Progress</p>
+                    <div class="col-lg">
+                        <div class="skills-group">
+                            <h2>Soft Skills</h2>
+                            <span class="skills-line"></span>
+                            <div class="skills-icon pt-2">
+                                <div class="row g-1">
+                                    <div class="col">
+                                        <img class="img-fluid w-50" src="assets/img/svg/soft-skill/teamwork.svg">
+                                        <p>Teamwork</p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="img-fluid w-50" src="assets/img/svg/soft-skill/communication.svg">
+                                        <p>Communication<p>
+                                    </div>
+                                    <div></div>
+                                    <div class="col">
+                                        <img class="img-fluid w-50" src="assets/img/svg/soft-skill/cordiliaty.svg">
+                                        <p>Cordiality<p>
+                                    </div>
+                                    <div class="col">
+                                        <img class="img-fluid w-50" src="assets/img/svg/soft-skill/work-for-progress.svg">
+                                        <p>Work to Progress</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -179,73 +207,109 @@
         
         <div class="section-line"></div>
 
-        <!--PROJECTS-->
-        <section id="Projects" class="projects text-center py-5"> 
+        <!--PORTFOLIO-->
+        <section id="Portfolio" class="portfolio py-5"> 
             <h1 class="p-1" data-aos="slide-right">Projects</h1>
-            <div class="container text-center mb-md-4" data-aos="slide-up">
-                <div class="row py-3 gy-3">
-                    <div class="col-lg-4 d-flex justify-content-center">
-                        <div class="card">
-                            <img src="assets/img/html-&-css.jpg" class="card-img-top">
-                            <div class="card-body">
-                              <h4>HTML &amp; CSS</h4>
-                              <p>My first personal portfolio website where you are currently.</p>
-                              <a href="https://github.com/lucacucinotta/website.git" target="_blank" class="pj-icon fa-brands fa-github text-decoration-none"></a>
+            <div class="container d-flex justify-content-center mb-3" data-aos="slide-up">
+                <div class="content text-center">
+                    <p class="h2">Here you can find all my projects. More coming soon!</p>
+                </div>
+            </div>
+            <div class="container text-center mb-5" data-aos="slide-up">
+                <div class="row g-3">
+                    <div class="col-xl-4 d-flex justify-content-center">
+                        <div class="maincard">
+                            <div class="card">
+                                <div class="card-front" style="background-image:url(assets/img/html-&-css.jpg);">
+                                </div>
+                                <div class="card-back d-flex justify-content-center align-items-center">
+                                    <div class="content-card">
+                                        <h2>HTML &amp; CSS</h2>
+                                    <p style="max-width: 300px;">Website realized for "HTML &amp; CSS" course by start2impact where you are currently</p>
+                                    <a href="https://github.com/lucacucinotta/website.git" target="_blank"><img src="/assets/img/svg/github.svg" style="max-width: 50px;"></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 d-flex justify-content-center">
-                        <div class="card">
-                            <img src="assets/img/coming-soon.jpg" class="card-img-top">
-                            <div class="card-body">
-                              <p class="h4">COMING SOON</p>
-                              <p>Stay Tuned!</p>
+                    <div class="col-xl-4 d-flex justify-content-center">
+                        <div class="maincard">
+                            <div class="card">
+                                <div class="card-front d-flex justify-content-center align-items-center">
+                                    <div class="content-card">
+                                        <h2 class="text-uppercase">Coming soon</h2>
+                                        <p>Stay Tuned!</p>
+                                    </div>
+                                </div>
+                                <div class="card-back d-flex justify-content-center align-items-center">
+                                    <div class="content-card">
+                                        <a href="https://github.com/lucacucinotta" target="_blank"><img src="assets/img/svg/github.svg" style="max-width: 50px;"></a>
+                                        <a href="https://www.linkedin.com/in/luca-cucinotta-4b836b278/" target="_blank"><img src="assets/img/svg/linkedin.svg" style="max-width: 75px;"></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 d-flex justify-content-center">
-                        <div class="card">
-                            <img src="assets/img/coming-soon.jpg" class="card-img-top">
-                            <div class="card-body">
-                              <p class="h4">COMING SOON</p>
-                              <p>Stay Tuned!</p>
+                    <div class="col-xl-4 d-flex justify-content-center">
+                        <div class="maincard">
+                            <div class="card">
+                                <div class="card-front d-flex justify-content-center align-items-center">
+                                    <div class="content-card">
+                                        <h2 class="text-uppercase">Coming soon</h2>
+                                        <p>Stay Tuned!</p>
+                                    </div>
+                                </div>
+                                <div class="card-back d-flex justify-content-center align-items-center">
+                                    <div class="content-card">
+                                        <a href="https://github.com/lucacucinotta" target="_blank"><img src="assets/img/svg/github.svg" style="max-width: 50px;"></a>
+                                        <a href="https://www.linkedin.com/in/luca-cucinotta-4b836b278/" target="_blank"><img src="assets/img/svg/linkedin.svg" style="max-width: 75px;"></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!--PROJECTS-->
+        <!--PORTFOLIO-->
 
         <div class="section-line"></div>
         
         <!--CONTACT-ME-->
         <section id="Contact-me" class="contact-me py-5">
             <h1 class="p-1" data-aos="slide-right">Contact Me</h1>
-            <div class="container d-flex justify-content-center" data-aos="slide-right">
+            <div class="container d-flex justify-content-center mb-2" data-aos="slide-up">
+                <div class="content text-center">
+                    <h2 class="bold">Let's Get In Touch!</h2>
+                    <p class="lead">If you want to work with me or have any questions, feel free to write me.</p>
+                </div>
+            </div>
+            <div class="container d-flex justify-content-center"data-aos="slide-right">
                 <div class="row form g-0">
                     <div class="left col-sm-12 col-md-4 d-flex align-items-center">
                         <div class="d-flex justify-content-center">
                             <img class="img-fluid w-50 p-1" src="/assets/img/luca-high-resolution-logo-white-on-transparent-background.png">
                         </div>
                     </div>
-                    <div class="right position-relative col-sm-12 col-md-8">
-                        <i class="position-absolute fa fa-caret-left d-none d-md-block"></i>
-                        <form id="contact_form">
-                            <div class="mb-3">
-                                <input type="text" id="name" class="form-control" placeholder="Name">
-                            </div>
-                            <div class="mb-3">
-                                <input type="email" id="email" class="form-control" placeholder="Email">
-                            </div>
-                            <div class="mb-3">
-                                <input type="text" id="subject" class="form-control" placeholder="Subject">
-                            </div>
-                            <div class="mb-3">
-                                <textarea id="message" class="form-control overflow-hidden" placeholder="Message"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary" onclick="sendMail()">Submit</button>
-                        </form>
+                    <div class="position-relative col-sm-12 col-md-8">
+                        <div class="right">
+                            <i class="position-absolute fa fa-caret-left d-none d-md-block"></i>
+                            <form id="contact_form">
+                                <div class="mb-3">
+                                    <input type="text" id="name" class="form-control" placeholder="Name">
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" id="email" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="mb-3">
+                                    <input type="text" id="subject" class="form-control" placeholder="Subject">
+                                </div>
+                                <div class="mb-3">
+                                    <textarea id="message" class="form-control overflow-hidden" placeholder="Message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary" onclick="sendMail()">Submit</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -253,12 +317,19 @@
         <!--CONTACT-ME-->
 
         <!--FOOTER-->
-        <footer class="p-1 text-center position-relative">
+        <footer class="position-relative">
             <div class="container">
-                <p class="lead">Copyright &copy; 2023 Luca Cucinotta</p>
-                <a href="#top" class="position-absolute end-0 bottom-0 p-1">
-                    <i class="arrow p-2 fa-solid fa-chevron-up"></i>
-                </a>
+                <div class="icon-link mb-2 d-flex justify-content-center">
+                    <a href="https://www.instagram.com/luca.cucinotta/" target="_blank"><img src="assets/img/svg/instagram.svg" class="insta me-2"></a>
+                    <a href="https://github.com/lucacucinotta" target="_blank"><img src="assets/img/svg/github.svg" class="github"></a>
+                    <a href="https://www.linkedin.com/in/luca-cucinotta-4b836b278/" target="_blank"><img src="assets/img/svg/linkedin.svg" class="linkedin"></a>
+                </div>
+                <div class="content d-flex justify-content-center text-center">
+                    <p class="lead">Copyright &copy; 2023 Luca Cucinotta</p>
+                    <a href="#top" class="position-absolute end-0 bottom-0 p-1">
+                        <i class="arrow p-2 fa-solid fa-chevron-up"></i>
+                    </a>
+                </div>
             </div>
         </footer>
         <!--FOOTER-->
