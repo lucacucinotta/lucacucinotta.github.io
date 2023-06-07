@@ -3,7 +3,6 @@
 .portfolio{
     h1{
         background-color:$primary_color;
-        color:$item-color;
         max-width: fit-content;
         border-bottom-right-radius: 20px;
         border-top-right-radius: 20px;
@@ -13,13 +12,13 @@
         font-size:40px;
         color:$primary_color;
     }
-    .maincard{
+    .portfolio-card{
         position: relative;
         width: 450px;
         height: 220px;
         background: none;
     }
-    .card{
+    .maincard{
         position: relative;
         width: 100%;
         height: 100%;
@@ -27,7 +26,7 @@
         transform-style: preserve-3d;
         transition: all 0.8s ease;
     }
-    .card:hover{
+    .maincard:hover{
         transform: rotateY(180deg);
     }
     .card-front{
@@ -38,7 +37,6 @@
         backface-visibility: hidden;
         background-size: cover;
         background-color:$primary_color;
-        color:$item-color;
     }
     .card-back{
         position: absolute;
@@ -46,10 +44,14 @@
         height: 100%;
         border-radius: 10px;
         backface-visibility: hidden;
-        background-size: cover;
         background:$primary_color;
-        color:$item-color;
         transform: rotateY(180deg);
+        .github{
+            max-width: 55px;
+        }
+        .linkedin{
+            max-width: 75px;
+        }
     }
     .card-back img:hover{
         transform: scale(1.1);

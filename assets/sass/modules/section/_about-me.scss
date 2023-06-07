@@ -3,14 +3,12 @@
 .about-me{
     h1{
         background-color:$primary_color;
-        color:$item-color;
         max-width: fit-content;
         border-bottom-right-radius: 20px;
         border-top-right-radius: 20px;
     }
     .presentation{
         background-color: $primary-color;
-        color:$item-color;
         border-radius:20px;
         a{
             color:$tertiary-color;

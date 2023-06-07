@@ -1,17 +1,17 @@
 @media (hover:none) { 
     /*NAVBAR*/
     .nav-link:hover{
-        color:#e9d8e4 !important;
+        color:white !important;
     }
     .nav-link:active{
-        color:#fbc40e !important;
+        color:$tertiary-color !important;
     }
     .icon:hover { 
-        color: #e9d8e4 !important;
+        color:white !important;
         transform: inherit !important; 
     }
     .icon:active{
-        color:#fbc40e !important;
+        color:$tertiary-color !important;
     }
     /*NAVBAR*/
 

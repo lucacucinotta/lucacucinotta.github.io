@@ -27,6 +27,7 @@
 body {
   background-color: #e9d8e4;
   font-family: "Red-Hat-Display", sans-serif;
+  color: white;
 }
 body .arrow {
   background-color: #fbc40e;
@@ -45,13 +46,13 @@ body .section-line {
   background-color: #343f71;
 }
 .navbar .navbar-brand {
-  color: #ffffff;
+  color: white;
 }
 .navbar .navbar-toggler {
-  color: #ffffff;
+  color: white;
 }
 .navbar .nav-link {
-  color: #ffffff;
+  color: white;
 }
 .navbar .nav-link:hover {
   color: #fbc40e;
@@ -61,7 +62,7 @@ body .section-line {
   display: block;
 }
 .navbar .icon {
-  color: #ffffff;
+  color: white;
 }
 .navbar .icon:hover {
   color: #fbc40e;
@@ -73,19 +74,16 @@ body .section-line {
 }
 .home .container {
   max-width: 600px;
-  color: #ffffff;
 }
 
 .about-me h1 {
   background-color: #343f71;
-  color: #ffffff;
   max-width: fit-content;
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
 }
 .about-me .presentation {
   background-color: #343f71;
-  color: #ffffff;
   border-radius: 20px;
 }
 .about-me .presentation a {
@@ -98,18 +96,13 @@ body .section-line {
 
 .skills h1 {
   background-color: #343f71;
-  color: #ffffff;
   max-width: fit-content;
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
 }
 .skills .skills-group {
-  color: #ffffff;
   background-color: #343f71;
   border-radius: 20px;
-}
-.skills .skills-group h1 {
-  color: #ffffff;
 }
 .skills .skills-group .skills-line {
   border-bottom: 1px solid #e9d8e4;
@@ -118,7 +111,6 @@ body .section-line {
 
 .portfolio h1 {
   background-color: #343f71;
-  color: #ffffff;
   max-width: fit-content;
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
@@ -128,13 +120,13 @@ body .section-line {
   font-size: 40px;
   color: #343f71;
 }
-.portfolio .maincard {
+.portfolio .portfolio-card {
   position: relative;
   width: 450px;
   height: 220px;
   background: none;
 }
-.portfolio .card {
+.portfolio .maincard {
   position: relative;
   width: 100%;
   height: 100%;
@@ -142,7 +134,7 @@ body .section-line {
   transform-style: preserve-3d;
   transition: all 0.8s ease;
 }
-.portfolio .card:hover {
+.portfolio .maincard:hover {
   transform: rotateY(180deg);
 }
 .portfolio .card-front {
@@ -153,7 +145,6 @@ body .section-line {
   backface-visibility: hidden;
   background-size: cover;
   background-color: #343f71;
-  color: #ffffff;
 }
 .portfolio .card-back {
   position: absolute;
@@ -161,10 +152,14 @@ body .section-line {
   height: 100%;
   border-radius: 10px;
   backface-visibility: hidden;
-  background-size: cover;
   background: #343f71;
-  color: #ffffff;
   transform: rotateY(180deg);
+}
+.portfolio .card-back .github {
+  max-width: 55px;
+}
+.portfolio .card-back .linkedin {
+  max-width: 75px;
 }
 .portfolio .card-back img:hover {
   transform: scale(1.1);
@@ -173,7 +168,6 @@ body .section-line {
 
 .contact-me h1 {
   background-color: #343f71;
-  color: #ffffff;
   max-width: fit-content;
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
@@ -245,20 +239,17 @@ footer img:hover {
   transform: scale(1.1);
   transition: all 0.5s;
 }
-footer p {
-  color: #ffffff;
-}
 
 @media (hover: none) {
   /*NAVBAR*/
   .nav-link:hover {
-    color: #e9d8e4 !important;
+    color: white !important;
   }
   .nav-link:active {
     color: #fbc40e !important;
   }
   .icon:hover {
-    color: #e9d8e4 !important;
+    color: white !important;
     transform: inherit !important;
   }
   .icon:active {

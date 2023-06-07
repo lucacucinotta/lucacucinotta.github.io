@@ -3,13 +3,13 @@
 .navbar{
     background-color: $primary-color;
     .navbar-brand{
-        color:$item-color;
+        color:white;
     }
     .navbar-toggler{
-        color:$item-color;
+        color:white;
     }
     .nav-link{
-        color:$item-color;
+        color:white;
     }
     .nav-link:hover{
         color:$tertiary-color;
@@ -19,7 +19,7 @@
         display: block;
     }
     .icon{
-        color:$item-color;
+        color:white;
     }
     .icon:hover{
         color:$tertiary-color;
