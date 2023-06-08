@@ -1,13 +1,10 @@
 @import "../modules/config";
 
-@font-face {
-    font-family:"Red-Hat-Display";
-    src: url(/assets/font/Red-Hat-Display/RedHatDisplay-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
 
 body{
     background-color: $secondary_color;
-    font-family: "Red-Hat-Display";
+    font-family: "Red Hat Display";
     .left{
         background-color: $tertiary-color;
         color:$primary-color;

@@ -1,10 +1,8 @@
-@font-face {
-  font-family: "Red-Hat-Display";
-  src: url(/assets/font/Red-Hat-Display/RedHatDisplay-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
 body {
   background-color: #e9d8e4;
-  font-family: "Red-Hat-Display";
+  font-family: "Red Hat Display";
 }
 body .left {
   background-color: #fbc40e;
