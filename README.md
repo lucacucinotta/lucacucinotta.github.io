@@ -8,11 +8,13 @@ This website has the purpose to show to a potentially interested public my chara
 In addition, you can find in my website a little presentaion of me next to my photo, in "About Me" section and a form to contact me for any reason, in the homonymous "Contact Me" section.
 ## Technologies used
 For create this website I've used different technologies:
-* List **Visual Studio Code** as editor for writing code; 
-* List **HTML** for realized the page's structure, 
-* List **Bootstrap**, a CSS's framework, for develop web interface and that I've also used to make the site 100% responsive thanks to breakpoints; 
-* List **SASS**, a powerful professional grade CSS extension for the stylesheets;
-* List **EmailJS** for receiving emails.
+* **Visual Studio Code** as editor for writing code; 
+* **HTML** for realized the page's structure, 
+* **Bootstrap**, a CSS's framework, for develop web interface and that I've also used to make the site 100% responsive thanks to breakpoints; 
+* **SASS**, a powerful professional grade CSS extension for the stylesheets;
+* **Font Awesome** for the Navbar's icon
+
+At the least I've used **Formspree** for receiving emails.
 ## Open Graph and SEO
 To improve SEO, I finally introduced the Open Graph tag, that is a protocol that allows you to indicate to social networks, such as Facebook, Twitter and Linkedin for example, what information is shown when someone shares a link from your site.
 ## Author
