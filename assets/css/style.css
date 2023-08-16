@@ -152,11 +152,8 @@ body .section-line {
   background: #343f71;
   transform: rotateY(180deg);
 }
-.portfolio .card-back .github {
+.portfolio .card-back .svg-icon {
   max-width: 55px;
-}
-.portfolio .card-back .linkedin {
-  max-width: 75px;
 }
 .portfolio .card-back img:hover {
   transform: scale(1.1);
@@ -223,14 +220,8 @@ body .section-line {
 footer {
   background-color: #343f71;
 }
-footer .icon-link .insta {
+footer .icon-link .svg-icon {
   max-width: 35px;
-}
-footer .icon-link .github {
-  max-width: 35px;
-}
-footer .icon-link .linkedin {
-  max-width: 55px;
 }
 footer img:hover {
   transform: scale(1.1);

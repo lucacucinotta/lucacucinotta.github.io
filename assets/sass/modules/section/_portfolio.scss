@@ -46,11 +46,8 @@
         backface-visibility: hidden;
         background:$primary_color;
         transform: rotateY(180deg);
-        .github{
+        .svg-icon{
             max-width: 55px;
-        }
-        .linkedin{
-            max-width: 75px;
         }
     }
     .card-back img:hover{

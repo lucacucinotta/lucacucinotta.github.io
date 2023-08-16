@@ -3,14 +3,8 @@
 footer{
     background-color: $primary-color;
     .icon-link{
-        .insta{
+        .svg-icon{
             max-width: 35px;
-        }
-        .github{
-            max-width: 35px;
-        }
-        .linkedin{
-            max-width: 55px;
         }
     }
     img:hover{
